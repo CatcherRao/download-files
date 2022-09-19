@@ -17,15 +17,15 @@ function downloadFile(url, outputDir, cb) {
   let fileName = basename.slice(0, basename.lastIndexOf('.'));
   let fileExtension = basename.slice(basename.lastIndexOf('.') + 1);
   let savePath = outputDir + '/' + fileName + '.' + fileExtension;
-  const tmpFileSavePath = outputDir + '/' + fileName + '.download.catch';
+  const catchPath = outputDir + '/' + fileName + '.download.catch';
 
   // createWriteStream
-  const fileStream = fs.createWriteStream(tmpFileSavePath)
+  const fileStream = fs.createWriteStream(catchPath)
     .on('error', (e) => {
       console.log(e);
     })
     .on('finish', function () {
-      fs.renameSync(tmpFileSavePath, savePath);
+      fs.renameSync(catchPath, savePath);
     });
 
   // fetch
