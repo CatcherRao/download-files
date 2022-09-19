@@ -1,6 +1,6 @@
 {
-  "name": "download-files",
-  "version": "1.0.0",
+  "name": "node-get-files",
+  "version": "1.0.1",
   "description": "Download files for NodeJs",
   "main": "src/main.js",
   "keywords": [
