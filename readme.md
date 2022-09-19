@@ -5,13 +5,13 @@
 ### Install
 
 ```
-npm install download-files
+npm install node-get-files
 ```
 
 ### how to  use?
 
 ```
-const download = require('download-files');
+const download = require('node-get-files');
 const path = require('path');
 
 const fileURL = 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJIY5YZHpyKaJicDeRO87WLhqblFXlU6eeaIfSpQ7Pf9F9jv7fFgfqXibhib8Hdxj0Ah3hFsrFx8ej4Q/132';
