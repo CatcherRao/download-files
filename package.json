@@ -1,0 +1,26 @@
+{
+  "name": "download-files",
+  "version": "1.0.0",
+  "description": "Download files for NodeJs",
+  "main": "src/main.js",
+  "keywords": [
+    "download",
+    "download file",
+    "download-files",
+    "node download file"
+  ],
+  "author": "catcher.rao 4423761@qq.com",
+  "scripts": {
+    "demo": "node demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CatcherRao/download-files"
+  },
+  "homepage": "https://github.com/CatcherRao/download-files#readme",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "2.6.7",
+    "progress-stream": "2.0.0"
+  }
+}
