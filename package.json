@@ -1,13 +1,16 @@
 {
   "name": "node-get-files",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Download files for NodeJs",
   "main": "src/main.js",
   "keywords": [
     "download",
     "download file",
+    "download files",
+    "download-file",
     "download-files",
-    "node download file"
+    "node download file",
+    "node-download-file"
   ],
   "author": "catcher.rao 4423761@qq.com",
   "scripts": {
